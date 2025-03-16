@@ -68,7 +68,7 @@ function getSum(n){
 // console.log(getSum(100));
 
 
-// make a function to concatinate string
+// make a function to concatinate multiple strings string
 let str = ['hi','hello','bye','!']
 
 function concat(string){
