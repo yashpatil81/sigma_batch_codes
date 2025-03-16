@@ -1,0 +1,34 @@
+h1{
+    /* ye document ke right side me nhi apne parent ke right side me hai */
+    /* text allign ye ek reletive to the parent hota hai absolute value nhi hoti */
+    text-align: right; 
+    /* border: solid; */
+    width: 50%;
+    text-decoration:wavy red underline;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family: avant garde, didot, sans-serif;
+}
+
+h3{
+    text-align: start;
+    text-decoration:pink line-through;
+}
+
+p{
+    text-align: end;
+    /* text-align: justify;  */ 
+    font-weight: 400; /* 400 means normal*/
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+h2{
+    font-weight: 800; /* 800 means Bold*/
+    text-decoration: double blue overline;
+    font-family: impact;
+}
+
+a{
+    text-decoration: none;
+}

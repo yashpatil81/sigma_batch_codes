@@ -1,0 +1,57 @@
+<!-- Always remember while submitting any form, the data goes to any place -->
+<!-- in the form of (Name = Value) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="search">
+        <button>search</button>
+    </form>
+
+    <form action="/server">
+        <input type="checkbox" name="age" id="age" checked>
+        <label for="age"> I am 18+ </label>
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple" >
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango" >
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="banana" value="banana" >
+            <label for="banana">banana</label>
+        </div>
+        <br>
+        <div>
+            Choose yourr subjects:
+        <input type="checkbox" name="subjects" id="math" value="maths">
+        <label for="math">math</label>
+        <input type="checkbox" name="subjects" id="science" value="sci">
+        <label for="science">science</label>
+        <input type="checkbox" name="subjects" id="english">
+        <label for="english">english</label>
+        </div>
+        <br>
+        <div>
+            <!-- select tag is used to create dropdown element -->
+            Choose your profession  
+            <select name="profession" id="profession">
+                <option value="stu">Student</option>
+                <option value="dev" selected>Developer</option>
+
+            </select>
+        </div>
+
+        <label for="vol">Select your volume level :</label>
+        <input type="range" id="volume" min="0" max="100" name="vol" step="10" value="70">
+        <br>
+
+        <label for="feedback">Please give your valuable feedback : </label>
+        <textarea name="feedback" id="feedback" placeholder="write your feedback here" rows="5"></textarea>
+        <button>submit</button>
+    </form>
+</body>
+</html>
