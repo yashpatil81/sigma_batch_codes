@@ -78,4 +78,51 @@ function concat(string){
     }
     return result;
 }
-console.log(concat(str));
+// console.log(concat(str));
+
+
+// here x and y are accessible to innerFunc beacause of concept called lexical scoping
+
+function outerFunc(){
+    let x = 5
+    let y = 6
+    function innerFunc() {
+        console.log(x);
+        console.log(y);
+    }
+    innerFunc()
+}
+// outerFunc()
+
+
+// here first we defined function first then we defined vaiables x and y still both are accessible to innerFunc because of concept called HOISTING
+
+function outerFunc() {
+    function innerFunc() {
+        console.log(x);
+        console.log(y);
+    }
+    let x = 5
+    let y = 6
+   
+    innerFunc()
+}
+// outerFunc()
+
+// ander wala variable a bahar access nhi hoga 
+function outerFunc(){
+    let x = 5
+    let y = 6
+    function innerFunc() { // functional scope
+        let a = 10;
+        console.log(x);
+        console.log(y);
+    }
+    console.log(a);
+    
+    innerFunc()
+}
+// outerFunc()  // this throws a error
+
+
+
