@@ -10,6 +10,7 @@ h1,h3{
     color: #b92b27;
 }
 
+/* id selector */
 #login {
     background-color: white;
 }
@@ -19,6 +20,7 @@ h1,h3{
     color: white;
 }
 
+/* class selector */
 .upvote{
     background-color: green;
     color: aliceblue;
