@@ -65,3 +65,12 @@
 // true
 // heading.classList 
 // DOMTokenList(2) ['underline', 'green', value: 'underline green']
+
+
+// let box = document.querySelector('.box')
+
+// undefined
+// box.classList.add('yellowBg')
+// undefined
+// box.classList;
+// DOMTokenList(2)['box', 'yellowBg', value: 'box yellowBg']
