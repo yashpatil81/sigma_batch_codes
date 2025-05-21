@@ -61,6 +61,7 @@ input[type="password"]{
     color: green;
 }
 
+/* koi bhi input elemenmt ho agar usme type attribute hai to uska bgc change karo  */
 input[type] {
     background-color: ghostwhite;
 }
