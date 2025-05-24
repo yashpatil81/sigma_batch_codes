@@ -1,0 +1,24 @@
+/* h1{
+    display: inline;
+}
+span{
+    display: block;
+} */
+
+span {
+  /* background-color: pink; */
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+}
+/* in span height and width are ignore but margin is applied to only left and right  and Padding works on all sides,but the top and bottom may overlap other elements*/
+
+div {
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+}

@@ -1,0 +1,12 @@
+/* block elements par sab properties implement hoti hai par inline par nhi hoti */
+/* isliye display inline-block karna hota hai jis se elements par jo bhi style apply ho raha hai vo according to block elements apply hoga */
+/* but vo jo behave karege vo inline elements ki tarah */
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+}
