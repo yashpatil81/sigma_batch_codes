@@ -1,0 +1,19 @@
+/*  transition-delay means kitne time ke baad vo transation start karega and  transition-duration means usko transation karne me kitna time lagega (shorthand in ss ) */
+/* margin : 0 auto;  se koi bhi element centre me aayega horizontally  */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #4cff00a1;
+    /* transition-duration: 1s;
+    transition-delay: 1s; */
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+
+div:hover{
+    /* background-color: black;
+    border-radius: 50%; */
+    margin-top: 400px;
+    background-color: pink;
+}

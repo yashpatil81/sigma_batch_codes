@@ -1,0 +1,11 @@
+/* alpha value 0 ki to sirf color gayab hoga lekin opacity 0 kar di to pura 
+element hi gayab  hoga */
+div{
+    height: 200px;
+    width: 200px;
+    background-color: hsla(102, 100%, 50%, 0.631);
+}
+
+#opacity{
+    background-color: 0.5;
+}
