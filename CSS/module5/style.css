@@ -1,0 +1,24 @@
+/* <!-- flexbox hamare elements ke layout ko flexible banane me madat karte hai --> */
+
+#container {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;   /* (start and end ) center ke along content justify ho jayega*/
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
