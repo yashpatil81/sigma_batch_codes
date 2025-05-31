@@ -1,15 +1,16 @@
 /* <!-- flexbox hamare elements ke layout ko flexible banane me madat karte hai --> */
-
+/* wrap reverse cross axis ke along  direction ko reverse kar deta hai*/
 #container {
-    height: 300px;
+    height: 600px;
     width: 80%;
     background-color: azure;
     margin: 10px auto;
     border: 2px solid black;
     display: flex;
-    flex-direction: column-reverse;
-    /* justify-content: center;   (start and end ) center ke along content justify ho jayega */
-    justify-content: space-evenly; /* (between , around and evenly) */
+    flex-direction: row;
+    justify-content:flex-start; 
+    flex-wrap: wrap;  /* (no wrap , wrap reverse ,wrap )*/
+    align-items: baseline;  /* (flex-start ,flex-end ,center,  baseline) */
 }
 
 h1 {
@@ -17,8 +18,8 @@ h1 {
 }
 
 #container div {
-    height: 20px;
-    width: 100px;
+    height: 100px;
+    width: 300px;
     color: white;
     text-align: center;
     font-size: 1.5em;
