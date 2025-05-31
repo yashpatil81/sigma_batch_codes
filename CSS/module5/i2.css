@@ -2,15 +2,32 @@
 /* wrap reverse cross axis ke along  direction ko reverse kar deta hai*/
 #container {
     height: 600px;
-    width: 80%;
+    width: 60%;
     background-color: azure;
     margin: 10px auto;
     border: 2px solid black;
     display: flex;
     flex-direction: row;
     justify-content:flex-start; 
-    flex-wrap: wrap;  /* (no wrap , wrap reverse ,wrap )*/
-    align-items: baseline;  /* (flex-start ,flex-end ,center,  baseline) */
+    /* flex-wrap: wrap; /* (no wrap , wrap reverse ,wrap ) */
+    /* align-items: baseline */ ;  /* (flex-start ,flex-end ,center,  baseline) */
+    align-content: flex-start; /* same as justify content but in cross axis*/
+
+}
+
+#org{
+    align-self: flex-start;
+    /* flex-basis: 50px; */
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+}
+
+#blue{
+    /* flex-basis: 400px; */
+    /* flex-grow: 3; */
+    /* min-width: 400px; */
+    flex-shrink: 3;
+
 }
 
 h1 {
