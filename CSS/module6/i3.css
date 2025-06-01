@@ -11,7 +11,7 @@
     animation-direction: alternate; */
 
     /* shorthand */
-    animation: widthAnimation 3s ease-in 0s 2 normal;
+    animation: widthAnimation 4s ease-in 0s 2 normal;
 }
 
 /* Animation template */
@@ -34,13 +34,16 @@
 }
 
 @keyframes widthAnimation{
-    from{
-        width: 10px;
+    0%{
         background-color: green;
     }
-    to{
-        width: 400px;
+    50%{
+        background-color: yellow;
+    }
+    80%{
+        background-color: red;
+    }
+    100%{
          background-color: blue;
-         border-radius: 15px;
     }
 }
