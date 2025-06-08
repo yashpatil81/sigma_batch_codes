@@ -38,3 +38,5 @@ console.dir(document.querySelectorAll('p'))
 // it shows tags
 
 
+// har individual object  ek node hoti hai trees me 
+// and querySelectorAll hame nodelist return karta hai~
