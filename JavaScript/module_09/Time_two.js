@@ -64,6 +64,21 @@ console.dir(document.querySelector('div a'))
 // '<b>Spider Man  </b>'
 
 
-
+// img = document.querySelector('img')
+// <img src=​"assets/​spiderman_img.png" id=​"mainImg" class=​"abc xyz">​
+// img.getAttribute('id')
+// 'mainImg'
+// img.setAttribute('id','spiderImage');
+// undefined
+// img.setAttribute('id','mainImg');
+// undefined
+// img.setAttribute('src',"assets/creation_3.jpeg");
+// undefined
+// img.getAttribute('class')
+// 'abc xyz'
+// img.setAttribute('class','images');
+// undefined
+// img.getAttribute('class')
+// 'images'
 
 
