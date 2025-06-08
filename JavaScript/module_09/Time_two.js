@@ -41,3 +41,29 @@ console.dir(document.querySelector('.oldImg'))
 console.dir(document.querySelector('div a'))
 
 
+// para.innerText='abc'
+// 'abc'
+// para.innerText='hi i am peter parker'
+// 'hi i am peter parker'
+// para.innerText='hi i am <b>peter parker</b>'
+// 'hi i am <b>peter parker</b>'
+// para.innerHTML='hi i am <b>peter parker</b>'
+// 'hi i am <b>peter parker</b>'
+// let heading = document.querySelector('h1');
+// undefined
+// heading.innerHTML='<u>Spider Man<u/>'
+// '<u>Spider Man<u/>'
+
+
+// // with help of backtik (``)
+// let heading = document.querySelector('h1');
+// undefined
+// heading.innerHTML
+// 'Spider Man'
+// heading.innerHTML = `<b>${heading.innerText}  </b>`
+// '<b>Spider Man  </b>'
+
+
+
+
+

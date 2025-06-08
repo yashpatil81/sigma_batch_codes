@@ -40,3 +40,9 @@ console.dir(document.querySelectorAll('p'))
 
 // har individual object  ek node hoti hai trees me 
 // and querySelectorAll hame nodelist return karta hai
+
+
+// text content dikhata hai ki humne index.html me kya kya likha 
+// innerText dikhata hi ki hamare screen pe kya print hua hai
+// innerHtml dikhata hai ki HTML ka markup kya tha 
+// it shows tags
