@@ -39,4 +39,4 @@ console.dir(document.querySelectorAll('p'))
 
 
 // har individual object  ek node hoti hai trees me 
-// and querySelectorAll hame nodelist return karta hai~
+// and querySelectorAll hame nodelist return karta hai
