@@ -82,3 +82,63 @@
 // 'images'
 
 
+img = document.querySelector('img')
+console.dir(img)
+img.style
+let heading = document.querySelector('h1');
+heading.style
+heading.style.color
+heading.style.color = 'purple'
+heading.style.backgroundColor = 'yellow'
+
+let links = document.querySelectorAll('.box a')
+undefined
+for(link of links) {
+    link.style.color = 'purple'
+}
+// 'purple'
+for(let i=0; i<links.length;i++){
+    links[i].style.color = 'green'
+}
+// 'green  
+
+// style (style property se wahi chize dikhti hai jo inline style ho )
+// style property me external css nhi dikhti isliye hum style property \
+// se jayda styling set nhi karte
+
+
+//jab humne h1 me do classes add ki classList ki madat se and jab 
+// green class remove ki classList.remove se and setattribute se set
+// ki green class to purple hat gayi 
+// becoz setattribute me ek time pe ek hi class ki value ho sakti hai
+// that's why we don't use setAttribute regularly
+
+// let heading = document.querySelector('h1');
+// undefined
+// heading.classList.add('green')
+// undefined
+// heading.classList
+// DOMTokenList ['green', value: 'green']
+// heading.classList.contains('underline')
+// false
+// heading.classList.contains('green')
+// true
+// heading.classList.toggle('green')
+// false
+// heading.classList.toggle('underline')
+// true
+// heading.classList.toggle('green')
+// true
+// heading.classList.remove('green')
+// undefined
+// heading.classList.contains('green')
+// false
+
+// toggle ka kaam hota hai agar koi class exist karti hai to usse remove kar doo agar  exist nhi karti hai to usse add kar doo
+
+// let box = document.querySelector('.box')
+// undefined
+// box.classList.add('yellowbg')
+// undefined
+// box.classList.add('yellowBg')
+
