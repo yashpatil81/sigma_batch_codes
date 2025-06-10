@@ -236,3 +236,31 @@ YA KOI NAYA CHILD APPEND KAR SAKTE HAI  */
 
 /** INSERTaDJACENTeLEMENT SE HUM DEFINE KAR SAKTE HAI KI HAME 
  * EXACTLY ELEMENT KO KAHA insert  KARNA  HAI */
+
+
+// REMOVE ELEMENT
+// let p = document.querySelector('p')
+// undefined
+
+// btn.innerText= 'click me'
+// 'click me'
+// p.insertAdjacentElement('afterbegin',btn);
+
+// <button>​click me​</button>​
+// p.insertAdjacentElement('afterend',btn);
+
+// <button>​click me​</button>​
+// let body=document.querySelector('body')
+// undefined
+// body.removeChild(btn)
+// <button>​click me​</button>​
+// p.insertAdjacentElement('afterend',btn);
+
+// <button>​click me​</button>​
+// btn.remove()
+// undefined
+// p.insertAdjacentElement('afterend',btn);
+
+// <button>​click me​</button>​
+// btn.remove(p)
+// btn.remove(body)
