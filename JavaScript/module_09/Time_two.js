@@ -142,3 +142,97 @@ for(let i=0; i<links.length;i++){
 // undefined
 // box.classList.add('yellowBg')
 
+
+
+
+// let h4 = document.querySelector('h4')
+// undefined
+// h4.parentElement
+// <div class=​"box">​…​</div>​
+// h4.children
+// HTMLCollection []
+// let box = document.querySelector('.box')
+
+
+// undefined
+// box.children
+// HTMLCollection(2) [h4, ul]
+// box.childElementCount
+// 2
+// let ul  = document.querySelector('ul')
+// undefined
+// ul.childElementCount
+// 3
+// ul.children
+// HTMLCollection(3) [li, li, li]
+// ul.children[0];
+// <li>​…​</li>​
+// ul.children[1];
+// <li>​…​</li>​
+// ul.children[2];
+// <li>​…​</li>​
+// ul.children[1].previousElementSibling
+// <li>​…​</li>​
+// ul.children[1].nextElementSibling
+// <li>​…​</li>​
+// let img = document.querySelector('img')
+// undefined
+// img.previousElementSibling
+// <h1>​Spider Man​</h1>​
+// img.previousElementSibling.style
+// CSSStyleDeclaration {accentColor: '', additiveSymbols: '', alignContent: '', alignItems: '', alignSelf: '', …}
+// img.previousElementSibling.style.color= 'green'
+// 'green'
+
+
+/* CREATING A NEW ELEMENT IN HTML WITH HELP OF JS*/
+/* AFTER CREATING A NEW ELEMENT WE HAVE TO INSERT IT INTO OUR DOCUMENT */
+
+// document.createElement('p')
+// <p>​</p>​
+// let newP = document.createElement('p')
+// undefined
+// console.dir(newP)
+// VM1094:1 p
+// undefined
+// newP.innerText = 'hi , i am new p'
+// 'hi , i am new p'
+// console.dir(newP)
+// VM1254:1 paccessKey: ""align: ""ariaActiveDescendantElement: nullariaAtomic: nullariaAutoComplete: nullariaBrailleLabel: nullariaBrailleRoleDescription: nullariaBusy: nullariaChecked: nullariaColCount: nullariaColIndex: nullariaColIndexText: nullariaColSpan: nullariaControlsElements: nullariaCurrent: nullariaDescribedByElements: nullariaDescription: nullariaDetailsElements: nullariaDisabled: nullariaErrorMessageElements: nullariaExpanded: nullariaFlowToElements: nullariaHasPopup: nullariaHidden: nullariaInvalid: nullariaKeyShortcuts: nullariaLabel: nullariaLabelledByElements: nullariaLevel: nullariaLive: nullariaModal: nullariaMultiLine: nullariaMultiSelectable: nullariaOrientation: nullariaPlaceholder: nullariaPosInSet: nullariaPressed: nullariaReadOnly: nullariaRelevant: nullariaRequired: nullariaRoleDescription: nullariaRowCount: nullariaRowIndex: nullariaRowIndexText: nullariaRowSpan: nullariaSelected: nullariaSetSize: nullariaSort: nullariaValueMax: nullariaValueMin: nullariaValueNow: nullariaValueText: nullassignedSlot: nullattributeStyleMap: StylePropertyMap {size: 0}attributes: NamedNodeMap {length: 0}autocapitalize: ""autofocus: falsebaseURI: "file:///C:/Users/Asus/OneDrive/Desktop/Yash/JavaScript/module_09/index%20(1).html"childElementCount: 0childNodes: NodeList [text]children: HTMLCollection []classList: DOMTokenList [value: '']className: ""clientHeight: 0clientLeft: 0clientTop: 0clientWidth: 0contentEditable: "inherit"currentCSSZoom: 1dataset: DOMStringMap {}dir: ""draggable: falseeditContext: nullelementTiming: ""enterKeyHint: ""firstChild: textfirstElementChild: nullhidden: falseid: ""inert: falseinnerHTML: "hi , i am new p"innerText: "hi , i am new p"inputMode: ""isConnected: falseisContentEditable: falselang: ""lastChild: textlastElementChild: nulllocalName: "p"namespaceURI: "http://www.w3.org/1999/xhtml"nextElementSibling: nullnextSibling: nullnodeName: "P"nodeType: 1nodeValue: nullnonce: ""offsetHeight: 0offsetLeft: 0offsetParent: nulloffsetTop: 0offsetWidth: 0onabort: nullonanimationend: nullonanimationiteration: nullonanimationstart: nullonauxclick: nullonbeforecopy: nullonbeforecut: nullonbeforeinput: nullonbeforematch: nullonbeforepaste: nullonbeforetoggle: nullonbeforexrselect: nullonblur: nulloncancel: nulloncanplay: nulloncanplaythrough: nullonchange: nullonclick: nullonclose: nulloncommand: nulloncontentvisibilityautostatechange: nulloncontextlost: nulloncontextmenu: nulloncontextrestored: nulloncopy: nulloncuechange: nulloncut: nullondblclick: nullondrag: nullondragend: nullondragenter: nullondragleave: nullondragover: nullondragstart: nullondrop: nullondurationchange: nullonemptied: nullonended: nullonerror: nullonfocus: nullonformdata: nullonfullscreenchange: nullonfullscreenerror: nullongotpointercapture: nulloninput: nulloninvalid: nullonkeydown: nullonkeypress: nullonkeyup: nullonload: nullonloadeddata: nullonloadedmetadata: nullonloadstart: nullonlostpointercapture: nullonmousedown: nullonmouseenter: nullonmouseleave: nullonmousemove: nullonmouseout: nullonmouseover: nullonmouseup: nullonmousewheel: nullonpaste: nullonpause: nullonplay: nullonplaying: nullonpointercancel: nullonpointerdown: nullonpointerenter: nullonpointerleave: nullonpointermove: nullonpointerout: nullonpointerover: nullonpointerrawupdate: nullonpointerup: nullonprogress: nullonratechange: nullonreset: nullonresize: nullonscroll: nullonscrollend: nullonscrollsnapchange: nullonscrollsnapchanging: nullonsearch: nullonsecuritypolicyviolation: nullonseeked: nullonseeking: nullonselect: nullonselectionchange: nullonselectstart: nullonslotchange: nullonstalled: nullonsubmit: nullonsuspend: nullontimeupdate: nullontoggle: nullontransitioncancel: nullontransitionend: nullontransitionrun: nullontransitionstart: nullonvolumechange: nullonwaiting: nullonwebkitanimationend: nullonwebkitanimationiteration: nullonwebkitanimationstart: nullonwebkitfullscreenchange: nullonwebkitfullscreenerror: nullonwebkittransitionend: nullonwheel: nullouterHTML: "<p>hi , i am new p</p>"outerText: "hi , i am new p"ownerDocument: documentparentElement: nullparentNode: nullpart: DOMTokenList [value: '']popover: nullprefix: nullpreviousElementSibling: nullpreviousSibling: nullrole: nullscrollHeight: 0scrollLeft: 0scrollTop: 0scrollWidth: 0shadowRoot: nullslot: ""spellcheck: truestyle: CSSStyleDeclaration {accentColor: '', additiveSymbols: '', alignContent: '', alignItems: '', alignSelf: '', …}tabIndex: -1tagName: "P"textContent: "hi , i am new p"title: ""translate: truevirtualKeyboardPolicy: ""writingSuggestions: "true"[[Prototype]]: HTMLParagraphElement
+// undefined
+// let body = document.querySelector('body');
+// undefined
+// body.appendChild(newP)
+// <p>​hi , i am new p​</p>​
+
+/* HUM APPENDCHILD SE KISI ELEMENT KE CHILD KE ANDAR CHANGE KAR SAKTE HAI BUT 
+YA KOI NAYA CHILD APPEND KAR SAKTE HAI  */
+
+/* PAR APPEND KI HELP SE HUM USSI EXISTING ELEMENT ME JAKAR CHANGES KAR SAKTE HAI */ 
+
+// let btn = document.createElement('button')
+// btn.innerText = 'click me'
+// box.appendChild(btn)
+//  <button>click me</button> 
+
+/* REFRESH THE PAGE  */
+// let btn = document.createElement('button')
+// btn.innerHTML = 'NEW Button'
+// let p = document.querySelector('p')
+// p
+// btn
+// <button>​NEW Button​</button>​
+// p
+// <p>​…​</p>​
+// p.insertAdjacentElement('beforebegin',btn);
+// <button>​NEW Button​</button>​
+// p.insertAdjacentElement('afterbegin',btn);
+// <button>​NEW Button​</button>​
+// p.insertAdjacentElement('beforeend',btn);
+// <button>​NEW Button​</button>​
+// p.insertAdjacentElement('afterend',btn);
+// <button>​NEW Button​</button>​
+
+
+/** INSERTaDJACENTeLEMENT SE HUM DEFINE KAR SAKTE HAI KI HAME 
+ * EXACTLY ELEMENT KO KAHA insert  KARNA  HAI */
