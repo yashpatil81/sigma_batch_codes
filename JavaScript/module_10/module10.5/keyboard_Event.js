@@ -1,10 +1,25 @@
 let inp = document.querySelector('input')
 
 inp.addEventListener('keydown',function(event){
-     console.log('key = ',event.key);  
-    console.log('key = ',event.code);  
+    //  console.log('key = ',event.key);
 
+    console.log('key = ',event.code);  // ArrowUp , ArrowDown , ArrowLeft, ArrowRight
+
+    if(event.code == "ArrowUp"){
+        console.log('character moves forward')
+    }
     
+    if(event.code == "ArrowDown"){
+        console.log('character moves backward')
+    }
+    
+    if(event.code == "ArrowLeft"){
+        console.log('character moves left')
+    }
+    
+    if(event.code == "ArrowRight"){
+        console.log('character moves right')
+    }
 });
 
 
