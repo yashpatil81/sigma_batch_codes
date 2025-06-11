@@ -24,5 +24,18 @@
 
 /////****************************************************************************************** */
 
+let btn = document.querySelector('button')
 
+ btn.addEventListener('click', function(event) {
+    console.dir(event);
+    console.dir('button clicked');
+    
+})
 
+btn.addEventListener('dblclick', function(event) {
+    console.dir(event);
+    console.dir('button clicked');
+    
+})
+
+//  event object hamare Triggered event ke bare me information deta hai
