@@ -28,12 +28,12 @@ function userFlash(btn){
     btn.classList.add('userflash')
     setTimeout(function(){
         btn.classList.remove('userflash')
-    },250)
-
+    },250);
 
 }
 
 function levelUp(){
+    userSeq= [];
     level++;
     h2.innerText = `level ${level}`
 
@@ -58,11 +58,16 @@ function checkAns(idx){
     if(userSeq[idx] == gameSeq[idx]){
         // console.log('same value');
         if(userSeq.length == gameSeq.length){
-            setTimeout(levelUp(),1000)
+            setTimeout(levelUp,1000)
         }
         
     }else{
-        h2.innerText = 'Game Over! Press any key to start.'
+        h2.innerHTML = `Game Over! Your score was <b>${level}</b> <br> Press any key to start.`
+        document.querySelector('body').style.backgroundColor = 'red'
+        setTimeout(function(){
+       document.querySelector('body').style.backgroundColor = 'white'    
+        },1000)
+        reset();
     }
 }
 
@@ -82,3 +87,12 @@ let allBtns = document.querySelectorAll('.btn')
 for(btn of allBtns){
     btn.addEventListener('click',btnPress)
 }
+
+function reset(){
+    started =false
+    gameSeq =[]
+    userSeq= []
+    level  = 0;
+}
+
+
