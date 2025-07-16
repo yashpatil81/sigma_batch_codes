@@ -8,9 +8,9 @@ app.listen(port , ()=>{
 })
 
 
-// app.get("/", (req,res)=>{
-//     res.send("hello i am root")
-// });cl
+app.get("/", (req,res)=>{
+    res.send("hello i am root")
+});
 
 
 // path parameters :- 

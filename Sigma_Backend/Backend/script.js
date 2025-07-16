@@ -2,8 +2,8 @@
 
 
 // for(let i=0;i<n;i++){
-    //     console.log('hello', i);
-    // }
+//         console.log('hello', i);
+//     }
     
     // console.log('hello');
     
@@ -60,10 +60,10 @@
 
 
 
-import {sum,pi} from "./math.js"
-import {generate} from "random-words";
+// import {sum,pi} from "./math.js"
+// import {generate} from "random-words";
 
-console.log(generate());
+// console.log(generate());
 
 
 // console.log(sum(1,2));
